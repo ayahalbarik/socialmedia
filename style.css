@@ -1,0 +1,40 @@
+
+
+.navbar{
+
+    display: inline;
+    margin-right: 50px;
+}
+ .center{
+
+    display: black;
+    margin-left: auto;
+ }
+
+
+img{
+  align: right;
+   height: 100px;
+   width: 200px;
+}
+p{
+text-align: start;      
+color: rgb(20, 19, 15);
+background-color: white;
+font-size: 20px;
+
+} 
+
+h1{
+    color: mediumorchid;
+    font-size: 30px;
+}
+
+ 
+li{
+    color: blue;
+    
+}
+  
+
+
