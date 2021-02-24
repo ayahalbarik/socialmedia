@@ -28,6 +28,15 @@
 var UserInput = prompt("what the car is hundai?red or blue or yelow");
 while(UserInput!="red"||UserInput!="blue"||UserInput!="yelow"){
 
-  alert("sorry for you");
+ alert("sorry for you");
  
+}
+
+var number = prompt("How many time you want to see image? ");
+
+
+for(i = 0; i < number; i++) {
+
+    document.write('<img src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/43D8/production/_111686371_pic1.png" alt="">')
+
 }
