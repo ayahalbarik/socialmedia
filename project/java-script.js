@@ -10,6 +10,17 @@ for(var i = 0; i < number; i++) {
 } else {
   alert("please visit us again");
 }
+
+var correct = "yes";
+var guess = "";
+while (guess != correct){
+  guess = prompt ("Type yes or you will not enter", "");
+  if (guess == correct){
+    alert ("Correct");
+  } else {
+    alert ("opss sorry bye ...");
+  }
+}
 var name =prompt("whats your name");
 function printMyName(myName) {
     alert("happy to meet you  " + myName);
