@@ -25,9 +25,21 @@
 //     }
 // }
 
-var UserInput = prompt("what the car is hundai?red or blue or yelow");
-while(UserInput!="red"||UserInput!="blue"||UserInput!="yelow"){
-
-  alert("sorry for you");
- 
+var txt;
+var r = confirm("Enjoy Your journey learning!");
+if (r == true) {
+  txt = "You pressed OK!";
+} else {
+  txt = "You pressed Cancel!";
 }
+
+var number = prompt("How many GIF you want to see? ");
+
+
+for(i = 0; i < number; i++) {
+
+    document.write('<img src="https://cdn.dribbble.com/users/1059583/screenshots/4171367/coding-freak.gif" alt="">')
+
+}
+ 
+
