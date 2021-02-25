@@ -40,6 +40,21 @@ for(i = 0; i < number; i++) {
 
     document.write('<img src="https://cdn.dribbble.com/users/1059583/screenshots/4171367/coding-freak.gif" alt="">')
 
+<<<<<<< HEAD
 }
  
 
+=======
+ alert("sorry for you");
+ 
+}
+
+var number = prompt("How many time you want to see image? ");
+
+
+for(i = 0; i < number; i++) {
+
+    document.write('<img src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/43D8/production/_111686371_pic1.png" alt="">')
+
+}
+>>>>>>> 40c3fb3cd535daa829b4fffea540b74a48be762c
